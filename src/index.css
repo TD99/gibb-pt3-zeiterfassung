@@ -1,0 +1,39 @@
+@import url("https://use.typekit.net/bvt3tgg.css");
+
+:root {
+   --font-family: 'articulat-cf', sans-serif;
+   --bg-color-app: #383B58;
+   --bg-color: #B1B8D5;
+
+   --textOrIcon-color: #DDDEE3;
+
+   --box-green-color: #378D60;
+   --box-red-color: #8D3737;
+   --box-blue-color: #328098;
+   --box-default-color: #565871;
+
+   --time-blue-color: #31A5C9;
+   --time-green-color: #59CD90;
+   --time-red-color: #CD5959;
+
+   --time-line-vertical: #B6B6B8;
+
+
+
+
+
+}
+
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
