@@ -1,8 +1,13 @@
 import React from 'react'
+import './timeBlocks.css'
+import {TimeBlockActivity} from '../timeBlockActivity/TimeBlockActivity';
 
 const TimeBlocks = () => {
   return (
-    <div>TimeBlocks</div>
+    <div className='timeblocks'>
+     <TimeBlockActivity />
+   
+    </div>
   )
 }
 
