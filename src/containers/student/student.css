@@ -1,0 +1,8 @@
+.student {
+    display: flex;
+    flex-direction: row;
+}
+.student-content {
+    background-color: var(--bg-color-app);
+    
+}
