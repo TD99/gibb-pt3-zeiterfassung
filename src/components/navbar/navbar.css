@@ -1,0 +1,26 @@
+.navbar{
+    background-color: var(--bg-color-app);
+    padding: 0.5rem;
+    display: flex;
+    width: 10%;
+    height: 100%;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.navbar-upper {
+    top:0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-lower {
+    
+    display: flex;
+    flex-direction: column;
+
+    bottom:0;
+}
+
