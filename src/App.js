@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Login, Student, Register, Admin, ErrorNotFound, ErrorAdminLevelTooLow, ErrorAdminLevelTooHigh, Teacher} from './containers';
+import {Login, Student, Register, Admin, ErrorNotFound, ErrorAdminLevelTooLow, ErrorAdminLevelTooHigh, Teacher, Shell} from './containers';
 import {Navbar} from './components';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
@@ -8,13 +8,19 @@ function App() {
   /* useEffect(() => {
   }, []); */
 
+  function setUserData() {
+    localStorage.setItem('firstname', "Max");
+    localStorage.setItem('name', "Mustermann");
+  }
+  setUserData();
+
   function getLogin() {
     const isLoggedIn = true;
     return isLoggedIn || false;
   }
 
   function getAdminLevel() {
-    const adminLevel = 0;
+    const adminLevel = 1;
     return adminLevel || 0;
   }
 
@@ -73,8 +79,14 @@ function App() {
 
   return (
     <div className="wrapper">
-      <BrowserRouter>
+      <Shell />
+    </div>
+  );
+
+  /*
+  <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Shell />} />
           <Route path='/' element={redirectFromHome()} />
           <Route path="/login" element={checkAuth(<Login />, {adminLevel: undefined, loginPolicy: false})} />
           <Route path="/register" element={checkAuth(<Register />, {adminLevel: undefined, loginPolicy: false})} />
@@ -84,8 +96,7 @@ function App() {
           <Route path="*" element={<ErrorNotFound />} />
         </Routes>
       </BrowserRouter>
-    </div>
-  );
+  */
 }
 
 export default App;

@@ -2,7 +2,7 @@
     background-color: var(--bg-color-app);
     
     display: flex;
-    width: 100%;
+    width: 50px;
     height: 100%;
     padding: 1rem;
     border-radius: 15px;

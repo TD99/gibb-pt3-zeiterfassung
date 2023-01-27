@@ -1,17 +1,12 @@
 import React from 'react'
 import './student.css';
-import {Navbar, Header, TimeData} from '../../components';
+import {Header, TimeBlocks, TimeData} from '../../components';
 const Student = () => {
   return (
     <div className="student">
-      <div className="student-navbar">
-        <Navbar />
-        </div>
-      <div className="student-content">
-        <Header />
-       
-        <TimeData />
-        </div>
+      <Header />
+      <TimeBlocks />
+      <TimeData />
     </div>
   )
 }

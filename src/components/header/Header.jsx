@@ -5,12 +5,8 @@ const Header = () => {
   return (
     <div className="header">
       <div className='header-title'>
-      <p><h1>Guten Tag ...</h1></p>
+      <h1>Guten Tag{(localStorage.getItem('firstname'))?(", " + localStorage.getItem('firstname')):("")}</h1>
       </div>
-
-     <div className='header-timeblocks'>
-      <TimeBlocks />
-     </div>
     </div> 
     
   )

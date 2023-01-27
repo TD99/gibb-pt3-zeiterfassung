@@ -2,7 +2,7 @@ import React from 'react'
 
 const TimeData = () => {
   return (
-    <div>TimeData</div>
+    <div className='timedata'>TimeData</div>
   )
 }
 
