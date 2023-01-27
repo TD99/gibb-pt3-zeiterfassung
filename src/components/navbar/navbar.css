@@ -11,20 +11,19 @@
 }
 
 .navbar-upper {
-  
     top: 0px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .navbar-lower {
-    
     display: flex;
     flex-direction: column;
-    
     margin-top: 30vh;
+}
 
-    
+.infoButton {
+  background-color: transparent;
+  border: transparent;
 }
 

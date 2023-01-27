@@ -19,7 +19,10 @@ const Navbar = () => {
          <FaChalkboardTeacher size={60} color="var(--textOrIcon-color)"/>
      </div>
      <div className='navbar-lower'> 
-       <FaInfoCircle size={60} color="var(--textOrIcon-color)"/>
+     <button className='infoButton' id='infobut'>
+     <FaInfoCircle size={60} color="var(--textOrIcon-color)"/>
+     </button>
+       
        <MdAdminPanelSettings size={60} color="var(--textOrIcon-color)"/>
      </div>
      </div>

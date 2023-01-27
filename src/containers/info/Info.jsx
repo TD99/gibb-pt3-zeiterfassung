@@ -44,7 +44,8 @@ const Info = () => {
             <div className='info-help'>
                 <h1>Hilfe</h1>
              Bei diesem Abschnitt probieren wir eure Probleme zu beheben. 
-             
+             Diese Applikation hat 6 Seiten. Man wird von den Logindaten her zur richtigen Seite 
+             zugewiesen.
             </div>
         </div>
     </div>
