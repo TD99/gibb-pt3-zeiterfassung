@@ -10,7 +10,7 @@ function App() {
 
   function getLogin() {
     const isLoggedIn = true;
-    return isLoggedIn || true;
+    return isLoggedIn || false;
   }
 
   function getAdminLevel() {
