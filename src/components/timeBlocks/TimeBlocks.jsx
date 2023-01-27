@@ -1,8 +1,12 @@
 import React from 'react'
+import './timeBlocks.css'
 
 const TimeBlocks = () => {
   return (
-    <div>TimeBlocks</div>
+    <div className='timeblocks'>
+     
+   
+    </div>
   )
 }
 

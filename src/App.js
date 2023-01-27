@@ -9,12 +9,12 @@ function App() {
   }, []); */
 
   function getLogin() {
-    const isLoggedIn = false;
-    return isLoggedIn || false;
+    const isLoggedIn = true;
+    return isLoggedIn || true;
   }
 
   function getAdminLevel() {
-    const adminLevel = 2;
+    const adminLevel = 0;
     return adminLevel || 0;
   }
 
