@@ -4,13 +4,15 @@ const TimeBlockActivity = ({icon, title, subtitle}) => {
   return (
     <div className='timeBlockActivity'>
         <div className='timeBlockActivity-icon'>
-         {icon}
+         {/*{icon}*/}
+         
         </div>
         <div className='timeBlockActivity-Title'>
-         <p>{title}</p>
+         {/*<p>{title}</p>*/}
+         
         </div>
         <div className='timeBlockActivity-subtitle'>
-        <p>{subtitle}</p>
+        {/*<p>{subtitle}</p>*/}
         </div>
     </div>
   )
