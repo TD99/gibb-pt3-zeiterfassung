@@ -13,14 +13,14 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='navbar-upper'>
-         <BsClockFill size={30} color="var(--textOrIcon-color)"/>
-         <FaIdCard size={30} color="var(--textOrIcon-color)"/>
-         <AiFillTool size={30} color="var(--textOrIcon-color)"/>
-         <FaChalkboardTeacher size={30} color="var(--textOrIcon-color)"/>
+         <BsClockFill size={60} color="var(--textOrIcon-color)"/>
+         <FaIdCard size={60} color="var(--textOrIcon-color)"/>
+         <AiFillTool size={60} color="var(--textOrIcon-color)"/>
+         <FaChalkboardTeacher size={60} color="var(--textOrIcon-color)"/>
      </div>
      <div className='navbar-lower'> 
-       <FaInfoCircle size={30} color="var(--textOrIcon-color)"/>
-       <MdAdminPanelSettings size={30} color="var(--textOrIcon-color)"/>
+       <FaInfoCircle size={60} color="var(--textOrIcon-color)"/>
+       <MdAdminPanelSettings size={60} color="var(--textOrIcon-color)"/>
      </div>
      </div>
   )

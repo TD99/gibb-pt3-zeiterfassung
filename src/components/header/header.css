@@ -1,0 +1,5 @@
+.header-title h1{
+    font-family: var(--font-family);
+    font-weight: heavy;
+    color: var(--textOrIcon-color);
+}
