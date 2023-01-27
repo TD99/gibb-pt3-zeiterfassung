@@ -24,10 +24,26 @@ const Info = () => {
                 </p>
 
               </div>
+              <div className="questionandAnswer2">
+                <h1>Werdet ihr nachdem Release für die Applikation mehrere Updates veröffentlichen?
+                </h1>
+                <p>Weil wir noch in einer Schule/Lehre sind und immer neue Informatikprojekte haben 
+                  ist es für uns schwer ein Projekt aktuell zu halten und neue Funktionen für es zu programmieren. 
+                  Wenn es aber nachher eine grosse Nachfrage hat, kann man es sich überlegen.
+                </p>
+              </div>
+
+              <div className="questionandAnswer3">
+                <h1>Gibt es die Applikation in mehreren Sprachen und wenn ja welche?</h1>
+                <p>Die Applikation entwickeln wir original auf Deutsch. Die Funktion das man 
+                  verschiedene Sprachen auswählen kann haben wir nicht geplant, denn das Projekt 
+                  ist für die Klasse und Schule, die als Hauptsprache Deutsch hat.
+                </p>
+              </div>
             </div>
             <div className='info-help'>
                 <h1>Hilfe</h1>
-             Bei diesem Abschnitt probieren wir eure Schwierigkeiten zu beheben. 
+             Bei diesem Abschnitt probieren wir eure Probleme zu beheben. 
              
             </div>
         </div>
