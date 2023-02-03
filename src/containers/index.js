@@ -7,6 +7,7 @@ export {default as Login} from './login/Login';
 export {default as Register} from './register/Register';
 export {default as Admin} from './admin/Admin';
 export {default as Shell} from './shell/Shell';
+export {default as Info} from './info/Info';
 
 export {default as ErrorNotFound} from './error/notFound/NotFound';
 export {default as ErrorAdminLevelTooLow} from './error/adminLevelTooLow/AdminLevelTooLow';
