@@ -1,12 +1,18 @@
 @import url("https://use.typekit.net/bvt3tgg.css");
 
+h1 {
+  font-family: var(--font-family);
+}
+h2,h3,p,li {
+  font-family: var(--font-family);
+}
 :root {
    --font-family: 'articulat-cf', sans-serif;
    --bg-color-app: #383B58;
    --bg-color: #B1B8D5;
-
+   
    --textOrIcon-color: #DDDEE3;
-
+   
    --box-green-color: #378D60;
    --box-red-color: #8D3737;
    --box-blue-color: #328098;

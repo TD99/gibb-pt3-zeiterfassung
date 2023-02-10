@@ -1,0 +1,37 @@
+.Info {
+
+}
+
+.Info-header {
+ 
+
+}
+
+.Info-header h1 {
+
+}
+
+
+.Info-impressum {
+    border-radius: 15px;
+    background-color: var(--box-default-color);
+    padding: 10px;
+}
+
+.Info-impressum h1,li,p{
+   
+    color: var(--textOrIcon-color);
+}
+
+.Info-FAQ {
+    margin: 10px;
+   border-radius: 15px;
+   padding: 10px;
+   background-color: var(--box-blue-color);
+}
+
+.Info-FAQ h1 {
+    color: var(--textOrIcon-color);
+}
+
+
