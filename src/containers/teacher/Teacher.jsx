@@ -12,10 +12,18 @@ useEffect(() => {
 }, [location])*/
 
 const Teacher = () => {
+  const data = [
+    {
+      displayName: 'INF2021G'
+    },
+    {
+      displayName: 'Praxistraining'
+    }
+  ];
   return (
     <div className="teacher">
     <Header />
-    <Blocks />
+    <Blocks data={data} />
     
     </div>
   )

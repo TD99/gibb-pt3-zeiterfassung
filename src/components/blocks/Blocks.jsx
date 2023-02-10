@@ -4,23 +4,27 @@ import './blocks.css';
 
 const Blocks = (props) => {
   const { data } = props;
-  var blockElements;
 
-  if (!data) return;
+  if (!data) {
+    return <span>Keine Daten</span>;
+  }
 
-  data.forEach(e => {
-    console.log(e.displayName);
+  const blockElements = data.map(e => {
     if (e.displayName) {
-      blockElements += 
-        <div className="block-element">{e.displayName}</div>
-      ;
+      return (
+        <div className="block-element" key={e.displayName}>
+          {e.displayName}
+        </div>
+      );
     }
+    return null;
   });
+
   return (
-    <div className='blocks'>
+    <div className="blocks">
       {blockElements}
     </div>
-  )
+  );
 }
 
 Blocks.propTypes = {
