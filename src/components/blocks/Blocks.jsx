@@ -1,29 +1,34 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './blocks.css';
 
-const Blocks = () => {
+const Blocks = (props) => {
+  const { data } = props;
+  var blockElements;
+
+  if (!data) return;
+
+  data.forEach(e => {
+    console.log(e.displayName);
+    if (e.displayName) {
+      blockElements += 
+        <div className="block-element">{e.displayName}</div>
+      ;
+    }
+  });
   return (
     <div className='blocks'>
-      <div className='block-element'>
-        INF2021a
-      </div>
-      <div className='block-element'>
-        INF2021c
-      </div>
-      <div className='block-element'>
-        INF2021d
-      </div>
-      <div className='block-element'>
-        INF2021i
-      </div>
-      <div className='block-element'>
-        INF2021g
-      </div>
-      <div className='block-element'>
-        Praxistraining
-      </div>
+      {blockElements}
     </div>
   )
 }
+
+Blocks.propTypes = {
+  data: PropTypes.array,
+};
+
+Blocks.defaultProps = {
+  data: null,
+};
 
 export default Blocks;
