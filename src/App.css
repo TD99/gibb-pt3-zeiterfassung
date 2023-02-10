@@ -13,3 +13,8 @@ a {
    color: unset; 
    text-decoration: none;
 }
+
+.wrapper {
+   height: 100%;
+   width: 100%;
+}
