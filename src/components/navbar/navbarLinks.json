@@ -1,0 +1,37 @@
+{
+    "/student": {
+        "name": "Student",
+        "minAdminLevel": 0,
+        "maxAdminLevel": 0
+    },
+    "/teacher":{
+        "name": "Teacher",
+        "minAdminLevel": 1,
+        "maxAdminLevel": 1
+    },
+    "/admin": {
+        "name": "Admin",
+        "minAdminLevel": 2,
+        "maxAdminLevel": 2
+    },
+    "/login":{
+        "name": "Login",
+        "minAdminLevel": -1,
+        "maxAdminLevel": -1
+    },
+    "/register": {
+        "name": "Register",
+        "minAdminLevel": -1,
+        "maxAdminLevel": -1
+    },
+    "/settings": {
+        "name": "Settings",
+        "minAdminLevel": 1,
+        "maxAdminLevel": 2
+    },
+    "/help": {
+        "name": "Help",
+        "minAdminLevel": -1,
+        "maxAdminLevel": 2
+    }
+}

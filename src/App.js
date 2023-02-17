@@ -83,8 +83,8 @@ function App() {
     </div>
   );
 
-  /*
-  <BrowserRouter>
+  
+ /* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Shell />} />
           <Route path='/' element={redirectFromHome()} />
@@ -95,8 +95,8 @@ function App() {
           <Route path='/admin' element={checkAuth(<Admin />, {adminLevel: {min: 2, max: 2}, loginPolicy: true})} />
           <Route path="*" element={<ErrorNotFound />} />
         </Routes>
-      </BrowserRouter>
-  */
+      </BrowserRouter>*/
+  
 }
 
 export default App;
