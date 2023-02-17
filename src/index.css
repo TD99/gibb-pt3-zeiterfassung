@@ -1,5 +1,7 @@
 @import url("https://use.typekit.net/bvt3tgg.css");
-
+* {
+  font-family: var(--font-family);
+}
 h1 {
   font-family: var(--font-family);
 }

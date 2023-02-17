@@ -35,9 +35,4 @@ Blocks.defaultProps = {
   data: null,
 };
 
-<<<<<<< Updated upstream
 export default Blocks;
-=======
-export default Blocks;
-
->>>>>>> Stashed changes
