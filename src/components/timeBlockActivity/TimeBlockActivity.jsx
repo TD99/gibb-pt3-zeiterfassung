@@ -1,21 +1,22 @@
 import React from 'react'
 import './timeBlockActivity.css'
-const TimeBlockActivity = ({icon, title, subtitle}) => {
-  return (
+const TimeBlockActivity = (Icon, Title, Subtitle) => (
+  
     <div className='timeBlockActivity'>
         <div className='timeBlockActivity-icon'>
-         {/*{icon}*/}
+         {/*{this.Icon}*/}
+         <p>Activity</p>
          
         </div>
         <div className='timeBlockActivity-Title'>
-         {/*<p>{title}</p>*/}
+         {/*<p>{this.Title}</p>*/}
          
         </div>
         <div className='timeBlockActivity-subtitle'>
-        {/*<p>{subtitle}</p>*/}
+        {/*<p>{this.Subtitle}</p>*/}
         </div>
     </div>
-  )
-}
+  );
+
 
 export default TimeBlockActivity
