@@ -1,9 +1,23 @@
-import React from 'react'
+
+import React, {useReducer, useEffect} from 'react';
+import './admin.css';
+import {Header, Blocks} from '../../components';
 import './admin.css';
 const Admin = () => {
+  const data = [
+    {
+      displayName: 'Oliver Schramm'
+    },
+    {
+      displayName: 'Yilmaz Günel'
+    }
+  ];
   return (
-    <div>Admin</div>
+    <div className="admin">
+      <Header />
+      <Blocks data={data} />
+    </div>
   )
-}
+} 
 
-export default Admin
+export default Admin;
