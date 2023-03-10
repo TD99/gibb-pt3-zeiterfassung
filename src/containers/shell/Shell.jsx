@@ -16,6 +16,7 @@ const Shell = () => {
               <Route path="/student" element={<Student />} />
               <Route path='/teacher' element={<Teacher />} />
               <Route path='/admin' element={<Admin />} />
+              <Route path='/info' element={<Info />} />
               <Route path="*" element={<ErrorNotFound />} />
             </Routes>
         </div>
