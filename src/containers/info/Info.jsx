@@ -48,7 +48,7 @@ const Info = () => {
 
       <div className="Info-help">
         <h1>Hilfe</h1>
-        
+         
         </div>
     </div>
   )
