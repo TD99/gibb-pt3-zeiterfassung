@@ -1,19 +1,19 @@
 import React from 'react'
 
-const TimeBlockModul = (icon, title, subtitle) => {
-  return (
+const TimeBlockModul = (Icon, Title, Subtitle) => (
+  
     <div className='timeBlockModul'>
     <div className='timeBlockModul-icon'>
-     {icon}
+     {Icon}
+     <p>Modul</p>
     </div>
     <div className='timeBlockModul-Title'>
-     <p>{title}</p>
+     <p>{Title}</p>
     </div>
     <div className='timeBlockModul-subtitle'>
-    <p>{subtitle}</p>
+    <p>{Subtitle}</p>
     </div>
 </div>
-  )
-}
+  );
 
 export default TimeBlockModul

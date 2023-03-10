@@ -1,10 +1,11 @@
 import React from 'react'
 
-const TimeBlockTime = (icon, title, subtitle, background) => {
-  return (
+const TimeBlockTime = (Number, title, subtitle, background) => (
+  
     <div color={background} className='timeBlocktime'>
     <div className='timeBlockTime-icon'>
-     {icon}
+     <p>{Number}</p>
+
     </div>
     <div className='timeBlockTime-Title'>
      <p>{title}</p>
@@ -13,7 +14,7 @@ const TimeBlockTime = (icon, title, subtitle, background) => {
     <p>{subtitle}</p>
     </div>
 </div>
-  )
-}
+  );
+
 
 export default TimeBlockTime
