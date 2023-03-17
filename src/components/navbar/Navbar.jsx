@@ -1,12 +1,8 @@
 import React from 'react';
 import './navbar.css';
 import {BsClockFill} from 'react-icons/bs';
-import {FaIdCard} from 'react-icons/fa'; 
 import {AiFillTool} from 'react-icons/ai'; 
-import {MdAdminPanelSettings} from 'react-icons/md'; 
-import {FaInfoCircle} from 'react-icons/fa'; 
-import {FaChalkboardTeacher} from 'react-icons/fa';
-import {FaUserCircle} from 'react-icons/fa';
+import {FaInfoCircle, FaUserCircle, FaChalkboardTeacher, FaIdCard} from 'react-icons/fa'; 
 import {BrowserRouter as Router, Link, Switch, Route, Outlet} from 'react-router-dom';
 
 const Navbar = () => {
@@ -14,30 +10,34 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className='navbar-upper'>
-        <Link to='/'>
-         <BsClockFill size={60} color="var(--textOrIcon-color)"/>
-        </Link>
-         
-         <Link to='/student'>
-          <FaIdCard size={60} color="var(--textOrIcon-color)" />
-         </Link>
+      <div className='navbar-body-wrapper'>
+        <div className='navbar-container'>
+          <Link to='/'>
+            <BsClockFill className="nav-logo"/>
+          </Link>
+        </div>
+        <hr />
+        <div className='navbar-container'>         
+          <Link to='/student'>
+            <FaIdCard className="nav-icon" />
+          </Link>
 
-         <Link to='/teacher'>
-          <FaChalkboardTeacher size={60} color="var(--textOrIcon-color)"/>
-         </Link>
+          <Link to='/teacher'>
+            <FaChalkboardTeacher className="nav-icon" />
+          </Link>
 
-         <Link to='/admin'>
-          <AiFillTool size={60} color="var(--textOrIcon-color)"/>
-         </Link>
+          <Link to='/admin'>
+            <AiFillTool className="nav-icon" />
+          </Link>
+        </div>
       </div>
-      <div className='navbar-lower'> 
+      <div className='navbar-container'> 
         <Link to='/account'>
-          <FaUserCircle size={60} color="var(--textOrIcon-color)"/>
+          <FaUserCircle className="nav-icon" />
         </Link>
         
         <Link to='/info'>
-          <FaInfoCircle size={60} color="var(--textOrIcon-color)"/>
+          <BsInfoSquareFill className="nav-icon" />
         </Link>
       </div>
     </div>

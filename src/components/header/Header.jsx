@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className='header-title'>
-      <p><h1>Guten Tag{(localStorage.getItem('firstname'))?(", " + localStorage.getItem('firstname')):("")}</h1></p>
+      <h1>Guten Tag{(localStorage.getItem('firstname'))?(", " + localStorage.getItem('firstname')):("")}</h1>
       </div>
     </div> 
     
