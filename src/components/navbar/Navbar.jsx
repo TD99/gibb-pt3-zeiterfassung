@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
         
         <Link to='/info'>
-          <BsInfoSquareFill className="nav-icon" />
+          {/* <BsInfoSquareFill className="nav-icon" /> */}
         </Link>
       </div>
     </div>
