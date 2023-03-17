@@ -2,18 +2,18 @@ import React from 'react'
 import './timeBlocks.css'
 import {TimeBlockTime, TimeBlockActivity, TimeBlockModul} from '../../components/';
 
-const timeBlockActivityData = [
+/*const timeBlockActivityData = [
  {
    Icon: 'Icon',
    Title: 'title',
    Subtitle: 'Subtitle'
  }
-];
+];*/
 
 const TimeBlocks = () => {
   return (
     <div className='timeblocks'>
-      <TimeBlockActivity Icon />
+      <TimeBlockActivity />
       {/*<TimeBlockTime />
   <TimeBlockModul />*/}
     </div>
