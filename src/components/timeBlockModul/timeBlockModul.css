@@ -1,0 +1,15 @@
+.timeBlockModul {
+    background-color: #565871;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 15%;
+    margin: 10px;
+}
+.timeBlockModul h2 {
+    color: #DDDEE3;
+}
+
+.timeBlockModul p {
+    line-height: 0.5rem;
+}

@@ -6,7 +6,7 @@ const Student = () => {
     <div className="student">
       <Header />
       <TimeBlocks />
-      {/*<TimeData />*/}
+      <TimeData />
     </div>
   )
 }
