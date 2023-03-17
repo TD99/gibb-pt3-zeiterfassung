@@ -5,7 +5,7 @@ const TimeBlockActivity = (Icon, Title, Subtitle) => (
     <div className='timeBlockActivity'>
         <div className='timeBlockActivity-icon'>
          {/*{this.Icon}*/}
-         <p>Activity</p>
+         
          
         </div>
         <div className='timeBlockActivity-Title'>
