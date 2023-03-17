@@ -4,7 +4,7 @@ const TimeBlockModul = (Icon, Title, Subtitle) => (
   
     <div className='timeBlockModul'>
     <div className='timeBlockModul-icon'>
-     {Icon}
+     
      <p>Modul</p>
     </div>
     <div className='timeBlockModul-Title'>
