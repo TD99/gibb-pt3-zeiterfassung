@@ -14,7 +14,7 @@ const Info = () => {
         </p>
       </div>
       <div className="Info-impressum">
-        <p><h1>Impressum</h1></p>
+        <h1>Impressum</h1>
         <ul>
           <li>Schule: gibb Bern und BWD</li>
           <li>Mitglieder: Tim Dürr, Nicolas Thöni, David Esteves Rodrigues, Brendan Demierre, Guiseppe Greco, Oliver Lochner</li>
