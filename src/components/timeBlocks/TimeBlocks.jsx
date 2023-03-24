@@ -12,11 +12,13 @@ import {TimeBlockTime, TimeBlockActivity, TimeBlockModul} from '../../components
 
 const TimeBlocks = () => {
   return (
-    <div className='timeblocks'>
+    <div className='timeBlocks'>
       <TimeBlockActivity />
-      {/*<TimeBlockTime />
-  <TimeBlockModul />*/}
-    </div>
+      <TimeBlockTime />
+  <TimeBlockModul />   
+  
+  
+  </div>
   )
 }
 

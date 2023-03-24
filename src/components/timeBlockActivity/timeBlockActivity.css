@@ -1,9 +1,10 @@
 .timeBlockActivity {
     background-color: #378D60;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 10px;
     text-align: center;
     width: 15%;
+    margin: 10px;
 }
 .timeBlockActivity h2 {
     color: #DDDEE3;

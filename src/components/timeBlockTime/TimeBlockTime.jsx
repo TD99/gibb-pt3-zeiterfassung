@@ -1,17 +1,17 @@
 import React from 'react'
-
+import './timeBlockTime.css'
 const TimeBlockTime = (Number, title, subtitle, background) => (
   
-    <div color={background} className='timeBlocktime'>
-    <div className='timeBlockTime-icon'>
-     <p>{Number}</p>
-
+    <div className='timeBlockTime'>
+    <div className='timeBlockTime-Time'>
+    
+    <h1>10</h1>
     </div>
     <div className='timeBlockTime-Title'>
-     <p>{title}</p>
+     <h2>Minuten übrig</h2>
     </div>
     <div className='timeBlockTime-subtitle'>
-    <p>{subtitle}</p>
+    <p>12:30-15:45</p>
     </div>
 </div>
   );
