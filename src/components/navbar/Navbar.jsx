@@ -2,8 +2,10 @@ import React from 'react';
 import './navbar.css';
 import {BsClockFill} from 'react-icons/bs';
 import {AiFillTool} from 'react-icons/ai'; 
-import {FaInfoCircle, FaUserCircle, FaChalkboardTeacher, FaIdCard} from 'react-icons/fa'; 
+import {FaInfoCircle, FaUserCircle, FaChalkboardTeacher, FaIdCard, FaCalendarAlt} from 'react-icons/fa'; 
+import {MdAdminPanelSettings} from 'react-icons/md';
 import {BrowserRouter as Router, Link, Switch, Route, Outlet} from 'react-router-dom';
+import {Clock} from '../index.js';
 
 const Navbar = () => {
   const currPage = window.location.pathname;
@@ -13,21 +15,21 @@ const Navbar = () => {
       <div className='navbar-body-wrapper'>
         <div className='navbar-container'>
           <Link to='/'>
-            <BsClockFill className="nav-logo"/>
+            <Clock />
           </Link>
         </div>
         <hr />
         <div className='navbar-container'>         
           <Link to='/student'>
-            <FaIdCard className="nav-icon" />
+            <FaCalendarAlt className="nav-icon" />
           </Link>
 
-          <Link to='/teacher'>
+          <Link to='/classes'>
             <FaChalkboardTeacher className="nav-icon" />
           </Link>
 
           <Link to='/admin'>
-            <AiFillTool className="nav-icon" />
+            <MdAdminPanelSettings className="nav-icon" />
           </Link>
         </div>
       </div>
@@ -37,7 +39,7 @@ const Navbar = () => {
         </Link>
         
         <Link to='/info'>
-          {/* <BsInfoSquareFill className="nav-icon" /> */}
+          <FaInfoCircle className="nav-icon" />
         </Link>
       </div>
     </div>

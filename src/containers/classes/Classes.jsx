@@ -1,5 +1,5 @@
 import React, {useReducer, useEffect} from 'react';
-import './teacher.css';
+import './classes.css';
 import {Header, Blocks} from '../../components';
 import { useLocation } from 'react-router-dom';
 
@@ -11,21 +11,23 @@ useEffect(() => {
  forceUpdate()
 }, [location])*/
 
-const Teacher = () => {
+const Classes = () => {
   const data = [
     {
-      displayName: 'INF2021G'
+      displayName: 'INF2021G',
+      id: 0
     },
     {
-      displayName: 'Praxistraining'
+      displayName: 'Praxistraining',
+      id: 1
     }
   ];
   return (
-    <div className="teacher">
+    <div className="classes">
       <Header />
       <Blocks data={data} />
     </div>
   )
 } 
 
-export default Teacher;
+export default Classes;

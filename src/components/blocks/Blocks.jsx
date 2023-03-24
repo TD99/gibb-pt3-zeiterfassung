@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './blocks.css';
+import {Link} from 'react-router-dom';
 
 const Blocks = (props) => {
   const { data } = props;
@@ -11,10 +12,13 @@ const Blocks = (props) => {
 
   const blockElements = data.map(e => {
     if (e.displayName) {
+      
       return (
-        <div className="block-element" key={e.displayName}>
-          {e.displayName}
-        </div>
+        <Link to={`./${e.id}`} key={e.id}>
+          <div className="block-element" key={e.displayName}>
+            {e.displayName}
+          </div>
+        </Link>
       );
     }
     return null;
@@ -28,11 +32,11 @@ const Blocks = (props) => {
 }
 
 Blocks.propTypes = {
-  data: PropTypes.array,
+  data: PropTypes.array
 };
 
 Blocks.defaultProps = {
-  data: null,
+  data: null
 };
 
 export default Blocks;

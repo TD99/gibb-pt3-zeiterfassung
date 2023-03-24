@@ -6,3 +6,4 @@ export {default as TimeData } from './timeData/TimeData';
 export {default as TimeBlockActivity} from './timeBlockActivity/TimeBlockActivity';
 export {default as TimeBlockModul} from './timeBlockModul/TimeBlockModul';
 export {default as TimeBlockTime} from  './timeBlockTime/TimeBlockTime';
+export {default as Clock} from './clock/Clock';

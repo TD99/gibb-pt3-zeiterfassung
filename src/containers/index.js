@@ -1,5 +1,5 @@
 export {default as Student} from './student/Student'; 
-export {default as Teacher} from './teacher/Teacher';
+export {default as Classes} from './classes/Classes';
 export {default as ClassList} from './classList/ClassList';
 export {default as StudentList} from './studentList/StudentList';  
 export {default as TeacherList} from './teacherList/TeacherList'; 
