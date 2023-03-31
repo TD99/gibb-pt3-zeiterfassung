@@ -1,20 +1,28 @@
 import React from 'react'
 import './timeBlockTime.css'
-const TimeBlockTime = (Number, title, subtitle, background) => (
+const TimeBlockTime = (prop) => {
+
+  const {Number} = prop;
+  const {Title} = prop; 
+  const {Subtitle} = prop;
+
+
+  return (
   
     <div className='timeBlockTime'>
     <div className='timeBlockTime-Time'>
     
-    <h1>10</h1>
+    <h1>{Number}</h1>
     </div>
     <div className='timeBlockTime-Title'>
-     <h2>Minuten übrig</h2>
+     <h2>{Title}</h2>
     </div>
     <div className='timeBlockTime-subtitle'>
-    <p>12:30-15:45</p>
+    <p>{Subtitle}</p>
     </div>
 </div>
-  );
+  )
+  };
 
 
 export default TimeBlockTime
