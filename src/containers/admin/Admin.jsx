@@ -10,6 +10,9 @@ const Admin = () => {
     },
     {
       displayName: 'Yilmaz Günel'
+    },
+    {
+      displayName: 'Miriam Schluep'
     }
   ];
   return (

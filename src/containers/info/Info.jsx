@@ -48,7 +48,7 @@ const Info = () => {
 
       <div className="Info-help">
         <h1>Hilfe</h1>
-         
+        <p>Das Zeiterfassungstool hat kein Support, hier wäre aber eine kleine Dokumentation</p>
         </div>
     </div>
   )

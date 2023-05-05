@@ -4,6 +4,7 @@
 
 .Info-header p {
   font-size: 1.2rem;
+  font-weight: 300;
 
 }
 
@@ -16,6 +17,7 @@
     border-radius: 15px;
     background-color: var(--box-default-color);
     padding: 10px;
+    margin: 10px;
 }
 
 .Info-impressum h1,li,p{
@@ -24,11 +26,11 @@
 }
 .Info-impressum p, li{
     font-size: 1.2rem;
-    
+    font-weight: 300;
 }
 
 .Info-FAQ {
-    margin: 10px;
+   margin: 10px;
    border-radius: 15px;
    padding: 10px;
    background-color: var(--box-default-color);
@@ -39,6 +41,7 @@
 }
 .Info-FAQ p {
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 
