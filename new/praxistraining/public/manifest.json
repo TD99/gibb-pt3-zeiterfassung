@@ -1,0 +1,29 @@
+{
+    "short_name": "Zeiterfassung",
+    "name": "Zeiterfassung",
+    "description": "Eine React-Webseite mit welcher man Pausen für das Praxistraining an der gibb eintragen kann.",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "favicon.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      },
+      {
+        "src": "favicon.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "any"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#383B58",
+    "background_color": "#B1B8D5"
+  }
+  
