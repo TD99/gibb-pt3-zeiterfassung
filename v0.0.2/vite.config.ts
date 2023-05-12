@@ -9,12 +9,13 @@ export default defineConfig({
     })],
     resolve: {
         alias: {
-        '@src': '/src',
-        '@components': '/src/components',
-        '@pages': '/src/pages',
-        '@assets': '/src/assets',
-        '@theme': '/src/theme',
-        '@lib': '/src/lib'
+            '@src': '/src',
+            '@components': '/src/components',
+            '@pages': '/src/pages',
+            '@assets': '/src/assets',
+            '@theme': '/src/theme',
+            '@lib': '/src/lib',
+            '@context': '/src/context'
         }
     }
 })

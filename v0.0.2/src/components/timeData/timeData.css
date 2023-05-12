@@ -1,0 +1,33 @@
+.mainRow {
+    margin: 10px;
+    background-color: #565871;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.mainRow th,
+td {
+    
+    padding: 8px;
+}
+
+.mainRow th {
+    border-bottom: 1px solid #ddd;
+    border-width: 5px;
+    padding-bottom: 12px;
+    text-align: left;
+  
+    color: white;
+}
+
+.mainRow td {
+  margin: 10px;
+  border-right:  1px solid #ddd;
+  border-left:  1px solid  #ddd;
+  border-width: 5px;
+}
+
+
+
+
