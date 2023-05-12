@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        // Target and Libraries
+        "target": "ESNext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+        // JavaScript Support
+        "allowJs": false,
+        "skipLibCheck": true,
+
+        // Type Checking
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
+
+        // Modules
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+
+        // Emitting
+        "noEmit": true,
+
+        // JSX
+        "jsx": "react-jsx",
+
+        // Paths and Directories
+        "baseUrl": ".",
+        "paths": {
+            "@src/*": ["src/*"],
+            "@components/*": ["src/components/*"],
+            "@pages/*": ["src/pages/*"],
+            "@assets/*": ["src/assets/*"],
+            "@theme/*": ["src/theme/*"],
+            "@lib/*": ["src/lib/*"],
+            "@context/*": ["src/context/*"]
+        },
+
+        // Other Options
+        "forceConsistentCasingInFileNames": true,
+        "allowImportingTsExtensions": true
+    },
+    // Include and Exclude Files
+    "include": ["src"],
+
+    // Project References
+    "references": [{ "path": "./tsconfig.node.json" }]
+}

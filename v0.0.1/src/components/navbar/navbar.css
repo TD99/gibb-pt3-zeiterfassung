@@ -1,0 +1,30 @@
+.navbar{
+    background-color: var(--bg-color-app);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-icon {
+    width: 45px;
+    height: 45px;
+    color: var(--textOrIcon-color);
+}
+
+hr {
+    border: 1.25px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
