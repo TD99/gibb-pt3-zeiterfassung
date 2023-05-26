@@ -1,6 +1,5 @@
 import './admin.css';
 import {Header, Blocks} from '../../components';
-import './admin.css';
 
 const Admin: React.FC = () => {
     const data = [

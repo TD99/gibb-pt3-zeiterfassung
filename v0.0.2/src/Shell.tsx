@@ -1,6 +1,6 @@
 import '@theme/shell.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Login, Register, Student, Classes, Admin, Info, ErrorNotFound } from "@pages/.";
+import { Login, Register, Student, Classes, Admin, Info, ErrorNotFound, Account } from "@pages/.";
 import { Navbar } from "@components/.";
 
 const Shell = () => {
@@ -16,6 +16,7 @@ const Shell = () => {
                 <Route path='/classes' element={<Classes />} />
                 <Route path='/admin' element={<Admin />} />
                 <Route path='/info' element={<Info />} />
+                <Route path='account' element={<Account />} />
                 <Route path="*" element={<ErrorNotFound />} />
               </Routes>
           </div>
