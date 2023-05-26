@@ -1,0 +1,54 @@
+.account {
+   
+    text-align: center;
+    border-radius: 15px;
+    background-color: #565871;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.accountImg h1 {
+    color: var(--textOrIcon-color);
+}
+.account-informations {
+    margin: 20px;
+}
+
+.account-informations h2 {
+    display: inline;
+    border-bottom: 3px solid #3b8d9f;
+    font-size: 25px;
+   
+}
+.account-informations p {
+    font-size: 20px;
+}
+
+.account-Information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.account-icon {
+    width: 60px;
+    height: auto;
+    color: var(--textOrIcon-color);
+}
+
+.accountEdit-icon {
+    width: 60px;
+    height: auto;
+    color: var(--bg-color-app);
+}
+
+.account-edit {
+    background-color: var(--textOrIcon-color);
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 70px;
+    justify-content: center;
+}

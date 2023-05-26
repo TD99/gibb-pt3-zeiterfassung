@@ -13,13 +13,29 @@ const Info: React.FC = () => {
             </div>
             <div className="Info-impressum">
                 <h1>Impressum</h1>
-                <ul>
-                    <li>Schule: gibb Bern und BWD</li>
-                    <li>Mitglieder: Tim Dürr, Nicolas Thöni, David Esteves Rodrigues, Brendan Demierre, Guiseppe Greco, Oliver Lochner</li>
-                    <li>Mail des Verantwortlichen: kurt.jaermann@gibb.ch</li>
-                    <li>Datum: 10.02.2023</li>
-                    <li>Adresse der Schule gibb: Lorrainestrasse 3000 Bern</li>
-                </ul>
+                <table className='impressum-table'>
+                    <tr>
+                        <td className='table-title'>Schule</td>
+                        <td>gibb Bern und BWD</td>
+                    </tr>
+                    <tr>
+                        <td className='table-title'>Mitglieder</td>
+                        <td>Tim Dürr, Nicolas Thöni, David Esteves Rodrigues, Brendan Demierre, Guiseppe Greco, Oliver Lochner</td>
+                    </tr>
+                    <tr>
+                        <td className='table-title'>Mail des Verantwortlichen</td>
+                        <td>kurt.jaermann@gibb.ch</td>
+                    </tr>
+                    <tr>
+                        <td className='table-title'>Datum</td>
+                        <td>10.02.2023</td>
+                    </tr>
+                    <tr>
+                        <td className='table-title'>Adresse der Schule gibb</td>
+                        <td>Lorrainestrasse 3000 Bern</td>
+                    </tr>
+                </table>
+                
                 <p>Wir haben kein offizielles copyright bitte aber nicht die Applikation weiterverkaufen oder zu kopieren ausser sie haben ein Einverständnis von den Entwickler</p>
             </div>
 
