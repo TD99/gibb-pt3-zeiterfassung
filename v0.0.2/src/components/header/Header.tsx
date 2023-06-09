@@ -1,13 +1,17 @@
-import './header.css';
+import "./header.css";
 
-const Header: React.FC = () => {  
-    return (
-        <div className="header">
-            <div className='header-title'>
-                <h1>Guten Tag</h1>
-            </div>
-        </div> 
-    )
+interface ContainerProps {
+  name?: string;
 }
+
+const Header: React.FC<ContainerProps> = ({ name }) => {
+  return (
+    <div className="header">
+      <div className="header-title">
+        <h1>Guten Tag{name && ", " + name}</h1>
+      </div>
+    </div>
+  );
+};
 
 export default Header;

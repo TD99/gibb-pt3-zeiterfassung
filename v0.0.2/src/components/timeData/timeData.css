@@ -1,33 +1,33 @@
 .mainRow {
-    margin: 10px;
-    background-color: #565871;
+    border-collapse: collapse;
+    min-width: 25%;
+    color: white;
+    /* margin: 10px;
+    color: white;
     padding: 10px;
-    border-radius: 15px;
-    
+    border-radius: 15px; */
 }
 
 .mainRow th,
-td {
-    
-    padding: 8px;
+.mainRow td {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.mainRow tr:nth-child(even) {
+    background-color: #4e5070;
+}
+
+.mainRow tr:nth-child(odd) {
+    background-color: #414466;
+}
+
+.mainRow tbody tr:hover {
+    background-color: #3a3a3a;
 }
 
 .mainRow th {
-    border-bottom: 1px solid #ddd;
-    border-width: 5px;
+    padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-  
-    color: white;
 }
-
-.mainRow td {
-  margin: 10px;
-  border-right:  1px solid #ddd;
-  border-left:  1px solid  #ddd;
-  border-width: 5px;
-}
-
-
-
-

@@ -1,25 +1,23 @@
-import './timeBlockTime.css';
+import "./timeBlockTime.css";
 
 interface ContainerProps {
-    number: number;
-    title: string;
-    subtitle: string;
+  number: number;
+  title: string;
+  subtitle: string;
 }
 
-const TimeBlockTime: React.FC<ContainerProps> = ({ number, title, subtitle }) => {  
-    return (
-        <div className='timeBlockTime'>
-            <div className='timeBlockTime-Time'>
-                <h1>{number}</h1>
-            </div>
-            <div className='timeBlockTime-Title'>
-                <h2>{title}</h2>
-            </div>
-            <div className='timeBlockTime-subtitle'>
-                <p>{subtitle}</p>
-            </div>
-        </div>
-    )
+const TimeBlockTime: React.FC<ContainerProps> = ({
+  number,
+  title,
+  subtitle,
+}) => {
+  return (
+    <div className="timeBlockTime">
+      <h1>{number}</h1>
+      <h2>{title}</h2>
+      <p>{subtitle}</p>
+    </div>
+  );
 };
 
 export default TimeBlockTime;
